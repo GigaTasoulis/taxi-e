@@ -44,7 +44,7 @@ import {
 } from "@/components/ui/dialog"
 import { EditBookingForm } from "@/components/edit-booking-form"
 import { AssignDriverForm } from "@/components/assign-driver-form"
-import { toast } from "@/components/ui/use-toast"
+import { toast } from "@/hooks/use-toast"
 
 export default function BookingDetailPage() {
   const params = useParams()
